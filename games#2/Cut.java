@@ -54,6 +54,66 @@ public class Cut extends Actor
             world.removeObject(p2);
             Greenfoot.playSound("cut.mp3");
         }
+        
+        Actor p3;
+        p3 = getOneObjectAtOffset(0, 0, P3.class);
+        if (p3 != null)
+        {
+            World world;
+            world = getWorld();
+            world.removeObject(p3);
+            Greenfoot.playSound("cut.mp3");
+        }
+        
+        Actor p4;
+        p4 = getOneObjectAtOffset(0, 0, P4.class);
+        if (p4 != null)
+        {
+            World world;
+            world = getWorld();
+            world.removeObject(p4);
+            Greenfoot.playSound("cut.mp3");
+        }
+        
+        Actor p5;
+        p5 = getOneObjectAtOffset(0, 0, P5.class);
+        if (p5 != null)
+        {
+            World world;
+            world = getWorld();
+            world.removeObject(p5);
+            Greenfoot.playSound("cut.mp3");
+        }
+        
+        Actor p6;
+        p6 = getOneObjectAtOffset(0, 0, P6.class);
+        if (p6 != null)
+        {
+            World world;
+            world = getWorld();
+            world.removeObject(p6);
+            Greenfoot.playSound("cut.mp3");
+        }
+        
+        Actor p7;
+        p7 = getOneObjectAtOffset(0, 0, P7.class);
+        if (p7 != null)
+        {
+            World world;
+            world = getWorld();
+            world.removeObject(p7);
+            Greenfoot.playSound("cut.mp3");
+        }
+        
+        Actor p8;
+        p8 = getOneObjectAtOffset(0, 0, P8.class);
+        if (p8 != null)
+        {
+            World world;
+            world = getWorld();
+            world.removeObject(p8);
+            Greenfoot.playSound("cut.mp3");
+        }
     }  
     } 
 
